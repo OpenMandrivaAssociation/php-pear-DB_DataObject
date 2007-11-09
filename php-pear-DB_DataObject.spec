@@ -5,11 +5,11 @@
 
 Summary:	%{_pearname} - an SQL builder, object interface to database tables
 Name:		php-pear-%{_pearname}
-Version:	1.7.15
-Release:	%mkrel 5
+Version:	1.8.7
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/DB_DataObject/
 Requires(post): php-pear
 Requires(preun): php-pear
