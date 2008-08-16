@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - an SQL builder, object interface to database tables
 Name:		php-pear-%{_pearname}
-Version:	1.8.7
-Release:	%mkrel 2
+Version:	1.8.8
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,7 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The core class is designed to be extended for each of your tables so
@@ -83,7 +83,4 @@ rm -rf %{buildroot}
 %dir %{_datadir}/pear/%{_class}/%{_subclass}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
-
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
