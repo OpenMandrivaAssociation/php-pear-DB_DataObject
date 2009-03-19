@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - an SQL builder, object interface to database tables
 Name:		php-pear-%{_pearname}
-Version:	1.8.8
-Release:	%mkrel 2
+Version:	1.8.9
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
