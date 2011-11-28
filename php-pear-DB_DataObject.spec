@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.9.5
-Release:	%mkrel 2
+Version:	1.9.6
+Release:	%mkrel 1
 Summary:	An SQL builder, object interface to database tables
 License:	PHP License
 Group:		Development/PHP
