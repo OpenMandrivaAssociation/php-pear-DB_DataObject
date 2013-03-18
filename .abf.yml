@@ -1,2 +1,4 @@
+removed_sources:
+  DB_DataObject-1.9.5.tgz: 56e34da77cf1a63a7ea7d5c21e9736280eca99bb
 sources:
-  "DB_DataObject-1.9.5.tgz": 56e34da77cf1a63a7ea7d5c21e9736280eca99bb
+  DB_DataObject-1.10.0.tgz: d195b3bbadc534a9e7ece03e0996b6f02532c41e
