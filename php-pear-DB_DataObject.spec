@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.11.2
-Release:	1
+Release:	2
 Summary:	An SQL builder, object interface to database tables
 License:	PHP License
 Group:		Development/PHP
