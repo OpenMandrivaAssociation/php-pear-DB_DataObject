@@ -3,9 +3,10 @@
 %define	modname	%{_class}_%{_subclass}
 
 Summary:	An SQL builder, object interface to database tables
+
 Name:		php-pear-%{modname}
-Version:	1.11.2
-Release:	5
+Version:	1.11.3
+Release:	1
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/DB_DataObject/
@@ -44,4 +45,5 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 %doc %{modname}-%{version}/docs/example.ini
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{modname}.xml
+
 

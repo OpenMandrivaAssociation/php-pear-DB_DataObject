@@ -1,5 +1,6 @@
 removed_sources:
   DB_DataObject-1.10.0.tgz: d195b3bbadc534a9e7ece03e0996b6f02532c41e
+  DB_DataObject-1.11.2.tgz: bc2d706e3a497dc331a12f2685281accd1fbb622
   DB_DataObject-1.9.5.tgz: 56e34da77cf1a63a7ea7d5c21e9736280eca99bb
 sources:
-  DB_DataObject-1.11.2.tgz: bc2d706e3a497dc331a12f2685281accd1fbb622
+  DB_DataObject-1.11.3.tgz: 717bf976af6491a6caefc19d2e82a4e203121210
