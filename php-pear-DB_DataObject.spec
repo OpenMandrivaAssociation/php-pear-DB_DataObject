@@ -9,7 +9,7 @@ Version:	1.11.3
 Release:	7
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/DB_DataObject/
+Url:		https://pear.php.net/package/DB_DataObject/
 Source0:	http://download.pear.php.net/package/DB_DataObject-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
